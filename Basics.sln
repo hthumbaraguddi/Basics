@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. WeakReference", "WeakRef
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. MultipleWeakRefEventHandler", "MultipleWeakRefEventHandler\6. MultipleWeakRefEventHandler.csproj", "{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. SimpleAction", "SimpleAction\7. SimpleAction.csproj", "{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
