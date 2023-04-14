@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. EventHandler", "EventHan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. WeakReference", "WeakReference\5. WeakReference.csproj", "{3A211425-F2A9-43D0-8A49-B7078DA7DE6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. MultipleWeakRefEventHandler", "MultipleWeakRefEventHandler\6. MultipleWeakRefEventHandler.csproj", "{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3A211425-F2A9-43D0-8A49-B7078DA7DE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A211425-F2A9-43D0-8A49-B7078DA7DE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A211425-F2A9-43D0-8A49-B7078DA7DE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
