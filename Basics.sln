@@ -9,13 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. MultipleSubscription", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Event", "Event\3. Event.csproj", "{32FF3FA5-8D8F-4DB0-A20F-76F9EA39EA2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. EventHandler", "EventHandler\4. EventHandler.csproj", "{DE4D0E6B-9F42-4028-97E0-273481DA51C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. EventHandler", "EventHandler\4. EventHandler.csproj", "{DE4D0E6B-9F42-4028-97E0-273481DA51C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. WeakReference", "WeakReference\5. WeakReference.csproj", "{3A211425-F2A9-43D0-8A49-B7078DA7DE6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. WeakReference", "WeakReference\5. WeakReference.csproj", "{3A211425-F2A9-43D0-8A49-B7078DA7DE6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. MultipleWeakRefEventHandler", "MultipleWeakRefEventHandler\6. MultipleWeakRefEventHandler.csproj", "{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. MultipleWeakRefEventHandler", "MultipleWeakRefEventHandler\6. MultipleWeakRefEventHandler.csproj", "{4784E936-274E-4A6E-BFA8-E92A3AAB22F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. SimpleAction", "SimpleAction\7. SimpleAction.csproj", "{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. SimpleAction", "SimpleAction\7. SimpleAction.csproj", "{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.SimpleASync", "SimpleASync\8.SimpleASync.csproj", "{B8B9992E-F8B5-4AB1-A85B-CD51FC6C5D4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.TASK-TPL-WPF", "TASK-TPL-WPF\9.TASK-TPL-WPF.csproj", "{5D2B491F-1BC8-448E-A0A5-883546CCDD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. TPL-Streaming", "TPL-Streaming\10. TPL-Streaming.csproj", "{D2C96F03-8AA0-4E0D-88A2-741796A639EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Parallel_Example", "WPF_Parallel_Example\WPF_Parallel_Example.csproj", "{FEC51923-8F47-446E-8AEE-3B21422EEA3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1C14F39-68F9-4E8C-884B-8A929AB7BBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B9992E-F8B5-4AB1-A85B-CD51FC6C5D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B9992E-F8B5-4AB1-A85B-CD51FC6C5D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B9992E-F8B5-4AB1-A85B-CD51FC6C5D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B9992E-F8B5-4AB1-A85B-CD51FC6C5D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2B491F-1BC8-448E-A0A5-883546CCDD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2B491F-1BC8-448E-A0A5-883546CCDD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2B491F-1BC8-448E-A0A5-883546CCDD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2B491F-1BC8-448E-A0A5-883546CCDD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C96F03-8AA0-4E0D-88A2-741796A639EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C96F03-8AA0-4E0D-88A2-741796A639EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C96F03-8AA0-4E0D-88A2-741796A639EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C96F03-8AA0-4E0D-88A2-741796A639EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC51923-8F47-446E-8AEE-3B21422EEA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC51923-8F47-446E-8AEE-3B21422EEA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC51923-8F47-446E-8AEE-3B21422EEA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC51923-8F47-446E-8AEE-3B21422EEA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

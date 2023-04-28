@@ -1,0 +1,22 @@
+﻿<Window x:Class="TASK_TPL_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TASK_TPL_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Row="1" x:Name="stocksGrid" />
+        <Button Grid.Row="0" Content="Load Sync" Width="100" HorizontalAlignment="Left" Margin="50,25,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Grid.Row="0" Content="Load Async Hybrid" Width="100" HorizontalAlignment="Left" Margin="200,25,0,0" VerticalAlignment="Top" Click="Button1_Click"/>
+        <Button Grid.Row="0" Content="Load (Exception)" Width="100" HorizontalAlignment="Left" Margin="350,25,0,0" VerticalAlignment="Top" Click="Button_Click_CheckForException"/>
+        <Button Grid.Row="0" Content="Load" Width="100"  x:Name="SearchButton" HorizontalAlignment="Left" Margin="500,25,0,0" VerticalAlignment="Top" Click="Button_Click_Cancel"/>
+        <TextBlock Grid.Row="2" Height="50" x:Name="ErrorDisplayer" Text=""></TextBlock>
+    </Grid>
+</Window>
